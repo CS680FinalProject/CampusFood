@@ -33,7 +33,7 @@
     <p>Monday: Assorted Sandwiches Snack & Beverage</p>
     <p>Tuesday: Porchetta (GF) OR Vegetarian: Eggplant Parmesan With: Roasted Potatoes (GF) Snack & Beverage</p>
     <p>Wednesday: Herb Roasted Turkey (GF) OR Vegetarian: Butternut Squash & Lentils (GF) With Roasted Corn (GF) Snack & Beverage</p>
-    Thursday: Mediterranean Salmon (GF) OR Vegetarian: Shepard’s Pie (GF) With: Rice Pilaf Snack & Beverage
+    <p>Thursday: Mediterranean Salmon (GF) OR Vegetarian: Shepard’s Pie (GF) With: Rice Pilaf Snack & Beverage</p>
     ]]></string>
     <string name ="menu_921"><![CDATA[
     <p><i><b>Menu</b></i></p>
@@ -44,7 +44,7 @@
     <p>Deli choices served on freshly baked breads</p>
     <p>New creations by our chef just for you Ice cream and freshly baked desserts</p>
     <p>Homemade soups and you can enjoy "all you care to eat"!</p>
-    A Better Tomorrow ‘For Your Health’ Plates
+    <p>A Better Tomorrow ‘For Your Health’ Plates</p>
     ]]></string>
     <string name ="menu_Deloitte"><![CDATA[
     <p><i><b>Menu</b></i></p>
@@ -95,6 +95,29 @@
        Frozen Coffee. Frozen Dunkaccino. Smotthie - Tropical Mango or Strawberry Banana (Limited Time).
         Packaged Coffee (Limited Time). K-Cup Packs (Limited Time).</p>
     <p><b>Sandwiches</b> Chicken Biscuit. Texas Toast Grilled Cheese. Tune Salad. Chicken Salad. Ham & Cheese Sandwich. Turkey, Cheddar & Bacon Sandwich.</p>
+    ]]></string>
+    <string name="FAQ"><![CDATA[
+    <h1>Frequently Asked Questions</h1>
+    <p>Q: I am a resident freshman, what are my meal plan options?<br>A: All freshmen are required
+     to contract for the Super Value Meal Plan or the Value 15 Meal Plan.</p>
+    <p>Q: I am an upperclassman living in an on-campus residence hall/suite, what are my meal plan
+     options?<br>A: All on-campus hall/suite residents are required to contract for the Super Value,
+      Value 15, or Value 12 Meal Plans.</p>
+     <p>Q: I live in an apartment, what are my meal plan options?<br>A: Residents of both on and off
+      campus apartments are eligible for any of the meal plans. Super Value, Value 15, Value 10,
+       APARTMENT Plan or the BLOCK 60 Plan.</p>
+      <p>Q: What are the meal plan block-out dates?<br>A: Meal plans are not in effect during Thanksgiving,
+       Semester, and Spring Breaks.</p>
+      <p>Q: What if I want to make a change to meal plan?<br>A: The date for the fall semester deadline
+       for residents of mandatory meal plan areas to lower their meal plan is September 22. The date
+        for the spring semester deadline for residents of mandatory meal plan areas to lower their
+         meal plan is February 2, 2017. Any changes made after these dates must be completed in person
+          at the Residential Center. Residents of any area can increase or add a meal plan at any time.</p>
+       <p>Q: What is the difference between Discretionary Dollars and Falcon Funds?<br>A: Discretionary
+        Dollars are part of the Meal Plan. They may only be used to purchase food at Campus Dining
+         locations (except Dunkin Donuts). Falcon Funds are money that you personally add to your Falcon
+          Fund account. They may be used on campus like a debit card. Falcon Funds are accepted at the
+           bookstore, student information desk and all campus dining locations.</p>
     ]]></string>
 
 

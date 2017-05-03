@@ -7,6 +7,7 @@
     <color name="White">#FFffff</color>
     <color name="Black">#060000</color>
     <color name="Grey">#a7a7a7</color>
+    <color name="DarkGrey">#8b8b8b</color>
     <color name="Button">#1c9cdc</color>
     <color name="Bentley">#cd1c9cdc</color>
 </resources>

@@ -8,9 +8,10 @@
     tools:context="com.example.yp.campusfood.MainActivity">
 
     <ImageView
+        android:id="@+id/simple_anim"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:background="@drawable/bentleyfrontpage"/>
+        android:layout_height="100dp"
+        />
 
 <TabHost
     android:id="@+id/tabhost"
@@ -25,13 +26,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
         <FrameLayout android:id="@android:id/tabcontent"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
             <!-- first tab -->
             <LinearLayout android:id="@+id/tab1"
                 android:orientation="vertical"
@@ -53,11 +54,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/image1"
-                    android:padding="1sp"
                     android:background="@color/Bentley"
                     android:textColor="@color/White"
                     android:textSize="18sp"
-                    android:text="Text Sample"/>
+                    android:paddingStart="20dp"
+                    android:text="Lower Cafe"/>
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -74,11 +75,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/image2"
-                        android:padding="1sp"
                         android:background="@color/Bentley"
                         android:textColor="@color/White"
                         android:textSize="18sp"
-                        android:text="Text Sample"/>
+                        android:paddingStart="20dp"
+                        android:text="The 921"/>
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -96,11 +97,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/image3"
-                        android:padding="1sp"
                         android:background="@color/Bentley"
                         android:textColor="@color/White"
                         android:textSize="18sp"
-                        android:text="Text Sample"/>
+                        android:paddingStart="20dp"
+                        android:text="Deloitte Cafe"/>
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -110,7 +111,7 @@
                     android:id="@+id/image4"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
-                    android:background="@drawable/icon"
+                    android:background="@drawable/currito"
                     />
 
                     <TextView
@@ -118,11 +119,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/image4"
-                        android:padding="1sp"
                         android:background="@color/Bentley"
                         android:textColor="@color/White"
                         android:textSize="18sp"
-                        android:text="Text Sample"/>
+                        android:paddingStart="20dp"
+                        android:text="Currito"/>
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -132,7 +133,7 @@
                     android:id="@+id/image5"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
-                    android:background="@drawable/icon"
+                    android:background="@drawable/dunkin"
                     />
 
                     <TextView
@@ -140,94 +141,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/image5"
-                        android:padding="1sp"
                         android:background="@color/Bentley"
                         android:textColor="@color/White"
                         android:textSize="18sp"
-                        android:text="Text Sample"/>
+                        android:paddingStart="20dp"
+                        android:text="Dunkin' Donuts"/>
                 </RelativeLayout>
 
             </LinearLayout>
-
+            </ScrollView>
             <!--  second tab -->
             <LinearLayout android:id="@+id/tab2"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageView
-                    android:id="@+id/image21"
+                <ListView
+                    android:id="@+id/list"
                     android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="@drawable/icon"
-                    android:visibility="invisible"
-                    />
-
-                <TextView
-                    android:id="@+id/textView21"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@color/Green"
-                    android:textColor="@color/White"
-                    android:textSize="18sp"
-                    android:text="Text Sample2"
-                    android:visibility="invisible"/>
-
-                <ImageView
-                    android:id="@+id/image22"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="@drawable/icon"
-                    android:visibility="invisible"
-                    />
-
-                <TextView
-                    android:id="@+id/textView22"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@color/Green"
-                    android:textColor="@color/White"
-                    android:textSize="18sp"
-                    android:text="Text Sample3"
-                    android:visibility="invisible"/>
-
-                <ImageView
-                    android:id="@+id/image23"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="@drawable/icon"
-                    android:visibility="invisible"
-                    />
-
-                <TextView
-                    android:id="@+id/textView23"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@color/Green"
-                    android:textColor="@color/White"
-                    android:textSize="18sp"
-                    android:text="Text Sample2"
-                    android:visibility="invisible"
-                    />
-
-                <ImageView
-                    android:id="@+id/image24"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="@drawable/icon"
-                    android:visibility="invisible"
-                    />
-
-                <TextView
-                    android:id="@+id/textView24"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@color/Green"
-                    android:textColor="@color/White"
-                    android:textSize="18sp"
-                    android:text="Text Sample2"
-                    android:visibility="invisible"
-                    />
+                    android:layout_height="match_parent"/>
 
             </LinearLayout>
 
@@ -238,42 +170,16 @@
                 android:layout_height="match_parent"
                 android:background="#70ffcf">
 
-                <RadioGroup android:id="@+id/radio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
-                    <RadioButton android:id="@+id/rb01"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Tripadvisor"
-                        android:textColor="#ff000000"
-                        />
-                    <RadioButton android:id="@+id/rb02"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Massvacation"
-                        android:textColor="#ff000000" />
-                    <RadioButton android:id="@+id/rb03"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Public Transportation"
-                        android:textColor="#ff000000" />
-                    <RadioButton android:id="@+id/rb04"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Boston Museum and attraction"
-                        android:textColor="#ff000000" />
-                    <RadioButton android:id="@+id/rb05"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mass Parks"
-                        android:textColor="#ff000000" />
-
-                </RadioGroup>
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/web">
+                </WebView>
             </LinearLayout>
 
 
         </FrameLayout>
-     </ScrollView>
+
     </LinearLayout>
 
 </TabHost>

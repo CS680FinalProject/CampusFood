@@ -24,7 +24,6 @@
         </activity>
 
         <activity android:name =".CafeView"
-            android:label="Cafe"
             android:parentActivityName=".MainActivity"
         />
 
@@ -35,6 +34,11 @@
 
         <activity android:name =".Map"
             android:label="Directions"
+            android:parentActivityName=".MainActivity"
+            />
+
+        <activity android:name =".Faq"
+            android:label="FAQ"
             android:parentActivityName=".MainActivity"
             />
 

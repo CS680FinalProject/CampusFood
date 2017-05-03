@@ -1,6 +1,5 @@
 package com.example.yp.campusfood;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -9,7 +8,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class Map extends FragmentActivity implements OnMapReadyCallback {
@@ -57,22 +55,21 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         Bundle b = getIntent().getExtras();
         String cafeName =b.getString("Cafe");
 
-        //reset center of map
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(position2, 16.0f));
+
 
         LatLng tempPosition = null;
 
         //add markers for selected cafe
         switch (cafeName) {
-            case "LowerCafe":
+            case "Lower Cafe":
                 tempPosition = position;
                 break;
 
-            case "921":
+            case "The 921":
                 tempPosition = position1;
                 break;
 
-            case "Deloitte":
+            case "Deloitte Cafe":
                 tempPosition = position2;
                 break;
 
@@ -80,11 +77,14 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
                 tempPosition = position3;
                 break;
 
-            case "Dunkin":
+            case "Dunkin' Donuts":
                 tempPosition = position4;
                 break;
 
         }
+
+        //reset center of map
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(tempPosition, 16.0f));
 
         mMap.addMarker(new MarkerOptions()
                 .position(tempPosition)
